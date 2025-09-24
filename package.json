@@ -1,7 +1,7 @@
 {
   "name": "microservice-api-js-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "The goal of this assignment is to help you understand how a RESTful API works on the server-side using **Node.js** and **Express**. You will implement a microservice that allows users to be **created, retrieved, updated, and deleted**. The user data will be stored in memory (**no database required**).",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -11,10 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
